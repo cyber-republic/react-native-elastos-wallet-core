@@ -62,3 +62,50 @@ RNElastosMainchain.generateMnemonic((err, mnemonic) => {
     console.log(mnemonic)
 });
 ```
+
+
+## API List
+
+### generateMnemonic(Callback callback)
+* generate seed phrase used to recover the wallet
+```
+TODO
+```
+
+### importWalletWithMnemonic(String importMnemonic, Callback callback)
+* import existing seed phrase to recover wallet
+* set phrase and pay password
+```
+TODO
+```
+
+### createWallet(String newMnemonic, Callback callback)
+* creates master wallet from new generated seed
+* set phrase and pay password
+```
+TODO
+```
+
+### getPublicAddress(Callback callback)
+* display public key of wallet
+```
+TODO
+```
+
+### getBalance(Callback callback)
+* display balance of wallet
+```
+TODO
+```
+
+### getTransactionHistory(Callback callback)
+* display 5 last transactions
+```
+TODO
+```
+
+### sendToAddress(long amount, String toAddress, Callback callback)
+* create transaction with fee then sign and publish
+```
+TODO
+```
