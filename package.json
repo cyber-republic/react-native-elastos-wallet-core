@@ -66,5 +66,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "title": "React Native Elastos Wallet Core",
-  "version": "1.0.7"
+  "version": "1.0.8"
 }

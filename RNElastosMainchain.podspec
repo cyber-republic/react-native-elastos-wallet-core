@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
   s.vendored_libraries = "lib/ios/libspvsdk.a"
   s.public_header_files = "ios/**/*.{h,mm}", 'lib/ios/include/*.h', 'lib/ios/include/nlohmann/*.hpp'
   s.requires_arc = true
-  s.resource = "ios/Data/*.{txt,json}"
+  s.resource = "ios/Data"
 
   s.dependency "React"
   #s.dependency "others"
